@@ -1,58 +1,42 @@
 [
   {
-    "id": null,
-    "gender": null,
-    "name": null,
-    "contact": null,
-    "address": null,
-    "photo_url": null
-  },
-  {
-    "id": null,
-    "gender": null,
-    "name": null,
-    "contact": null,
-    "address": null,
-    "photo_url": null
-  },
-  {
-    "id": null,
-    "gender": null,
-    "name": null,
-    "contact": null,
-    "address": null,
-    "photo_url": null
-  },
-  {
-    "id": null,
-    "gender": null,
-    "name": null,
-    "contact": null,
-    "address": null,
-    "photo_url": null
-  },
-  {
-    "id": null,
-    "gender": null,
-    "name": null,
-    "contact": null,
-    "address": null,
-    "photo_url": null
-  },
-  {
-    "id": 6,
-    "name": "sami siddiqi",
+    "id": 1,
     "gender": "M",
-    "contact": "01715073562",
-    "address": null,
-    "photo_url": null
+    "name": "Sakib Siddiqi Supto",
+    "contact": "sakibsiddiqi15@gmail.com",
+    "address": "Chandpur, Bangladesh",
+    "photo_url": "sakib.jpg"
   },
   {
-    "id": 7,
-    "name": "sami siddiqi",
+    "id": 2,
+    "gender": "F",
+    "name": "Salma Jahan",
+    "contact": "salma@gmail.com",
+    "address": "Cumilla, Bangladesh",
+    "photo_url": "salma.jpg"
+  },
+  {
+    "id": 3,
+    "gender": "F",
+    "name": "Sayma Siddiqa",
+    "contact": "sayma@gmail.com",
+    "address": "Cumilla, Bangladesh",
+    "photo_url": "sayma.jpg"
+  },
+  {
+    "id": 4,
+    "gender": "F",
+    "name": "Eramoni",
+    "contact": "eramoni@gmail.com",
+    "address": "Cumilla, Bangladesh",
+    "photo_url": "era-moni.jpg"
+  },
+  {
+    "id": 5,
     "gender": "M",
-    "contact": "01715073522",
-    "address": null,
-    "photo_url": null
+    "name": "Efrad Siddiqi Sami",
+    "contact": "sami@gmail.com",
+    "address": "Chandpur, Bangladesh",
+    "photo_url": "sami.jpg"
   }
 ]

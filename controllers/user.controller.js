@@ -182,6 +182,8 @@ module.exports.bulkUpdate = (req, res) => {
             ...user,
             ...new User(updated || {}),
           };
+        }else {
+          return user;
         }
       });
 
