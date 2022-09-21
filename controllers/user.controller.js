@@ -175,16 +175,13 @@ module.exports.bulkUpdate = (req, res) => {
       });
     } else {
       let users = JSON.parse(data) || [];
+
       users = users.map((user) => {
-        let updated = user_list.find((ele) => +ele.id === +user.id);
-        if (user) {
-          return {
-            ...user,
-            ...new User(updated || {}),
-          };
-        }else {
-          return user;
-        }
+        let updated = user_list.find((ele) => +ele?.id === +user?.id) || {};
+        return new User({
+          ...user,
+          ...updated,
+        });
       });
 
       fs.writeFile(DB, JSON.stringify(users), (err) => {
